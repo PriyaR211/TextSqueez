@@ -267,7 +267,6 @@
 @media screen and (min-width: 420px) and (max-width: 1200px) {
     .start .right-part {
         width:100%;
-        border:2px solid red;
         display: flex;
         justify-content: center;
         align-items: center;
