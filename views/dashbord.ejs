@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compress.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./phone_dashbord.css">
+    <link rel="stylesheet" href="./hamburger.css">
+    <link rel="icon" href="./img/search.png">
+
+    <title>TextSqueez Dashbord</title>
+</head>
+
+<body>
+    <nav>
+        <div class="left-nav">
+            <h2>TextSqueez</h2>
+        </div>
+        <div class="right-nav">
+            <div class="icons">
+                <div class="icon icon1">
+                    <i class="fa-solid fa-database"></i>
+                    <p>Compr</p>
+                </div>
+                <div class="icon icon2">
+                    <i class="fa-solid fa-compress"></i>
+                    <p>Input</p>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="btn1"><a href="/">Home</a></button>
+                <button class="btn2"><a href="/dashbord">Clear</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="topnav">
+        <a href="#home" class="active">
+            <h3>TextSqueez</h3>
+        </a>
+        <div id="myLinks">
+            <a href="/">Home</a>
+            <a href="/dashbord">Clear</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <h3> <i class="fa fa-bars"></i></h3>
+
+        </a>
+    </div>
+
+    <div class="dashbord">
+        <div class="contents">
+            <div class="input">
+                <form action="/compress" method="post">
+                    <label for="givenText">Original Text</label>
+                    <textarea name="content" id="givenText" cols="40" rows="13"
+                        placeholder="Enter your text here"></textarea>
+                        <div class="options">
+                            <p>File Size Reduction Options</p>
+                                <input type="radio" id="low" name="compress_level" value="0" checked>
+                                <label for="low">Low</label>
+                    
+                                <input type="radio" id="high" name="compress_level" value="1">
+                                <label for="high">High</label>
+                        </div>
+                    <button>Apply Compression</button>
+                </form>
+            </div>
+            <div class="output">
+                <label for="output">Compressed Text</label>
+                <textarea name="" id="output" cols="40" rows="13" placeholder="Compressed text output"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend.css">
+    <link rel="stylesheet" href="./phone_frontend.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" href="./hamburger.css">
+    <link rel="icon" href="./img/investigation.png">
+    <link rel="icon" href="./img/search.png">
+
+    <title>TextSqueez</title>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="left-nav">
+            <h2>TextSqueez</h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#promo">Promo</a></li>
+            </ul>
+
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li>Input</li>
+                <button><a href="/dashbord">Compress</a></button>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="topnav">
+        <a href="#home" class="active">
+            <h3>TextSqueez</h3>
+        </a>
+        <div id="myLinks">
+            <a href="">Home</a>
+            <a href="#about">About</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#promo">Promo</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <h3> <i class="fa fa-bars"></i></h3>
+
+        </a>
+    </div>
+
+    <div class="header-content" id="home">
+        <div class="left-header">
+            <p class="para1">TextSqueez proudly presents</p>
+            <h1>Efficient text compression service</h1>
+            <p class="para2">Share your text,</p>
+            <form action="/dashbord" method="get">
+                <a href="#promo" class="btn-link">Get Started</a>
+                <button>Try Now</button>
+            </form>
+        </div>
+        <div class="right-header">
+            <img src="./img/Image.png" alt="">
+        </div>
+    </div>
+
+    <div class="efficient" id="about">
+        <div class="left-part">
+            <p class="para1">Size Cutter</p>
+            <h1>Efficient text reduction service</h1>
+            <p class="para2">Our powerful tool compresses text, reducing size and improving loading times. With advanced
+                algorithms,
+                TextSqueeze optimizes your content for efficiency.</p>
+            <form action="/dashbord" method="get">
+                <button>Try Now</button>
+            </form>
+        </div>
+        <div class="right-part">
+            <img src="./img/efficient.png" alt="">
+        </div>
+    </div>
+
+    <div class="feedback" id="feedback">
+        <div class="heading">
+            <h1>Testinomials</h1>
+            <p>Users love what we do and we want to share their feedback</p>
+        </div>
+
+        <div class="card-section">
+            <div class="card">
+                <p class="card-comment">TextSqueeze reduced my text content size significantly.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Priya Ranjan</p>
+                <p class="role">Web Developer, Priya Inc.</p>
+            </div>
+            <div class="card">
+                <p class="card-comment">I highly recommend TextSqueeze for text compression needs.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Tamannah Priya</p>
+                <p class="role">Data Analyst, Analyzer Co.</p>
+            </div>
+            <div class="card">
+                <p class="card-comment">TextSqueeze is essential for our optimization strategies.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Sachin Kumar</p>
+                <p class="role">CTO, Tech Wallah.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="start" id="promo">
+        <div class="left-part">
+            <h1>Get started with TextSqueeze today</h1>
+            <p>Begin optimizing your text now.</p>
+            <form action="/dashbord" method="get">
+                <button>Try Now</button>
+            </form>
+        </div>
+        <div class="right-part">
+            <img src="./img/start.png" alt="">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

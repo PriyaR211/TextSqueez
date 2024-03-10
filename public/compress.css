@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background-color: aliceblue; */
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+    font-weight: 500;
+}
+
+nav h2 {
+    margin-left: 100px;
+}
+
+nav .right-nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 120px;
+}
+
+nav .icons {
+    margin-right: 150px;
+    display: flex;
+    /* align-items: center; */
+}
+
+nav .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon i {
+    margin-right: 9px;
+}
+
+button {
+    border: none;
+    padding: 11px 16px;
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 1px 2px 2px 2px #edecec;
+}
+
+.options .submit-btn {
+    background-color: #94ee0e;
+    color: white;
+}
+
+.btn .btn1 {
+    margin-right: 20px;
+}
+
+.right-nav a {
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: black;
+}
+
+.topnav {
+    display: none;
+}
+
+
+/* Dashbord */
+
+.dashbord {
+    margin-left: 100px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.dashbord h2 {
+    margin-bottom: 12px;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents form,
+.output {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contents form button {
+    margin-top: 12px;
+    background-color: #f4f4f3;
+    font-size: 1.001rem;
+}
+
+.contents form button:hover {
+    margin-top: 12px;
+    background-color: #f4f4f3;
+}
+
+.contents .input {
+    margin-right: 130px;
+}
+
+.contents label {
+    margin-bottom: 9px;
+}
+
+.contents textarea {
+    border: none;
+    padding: 16px 12px;
+    font-size: 1.18rem;
+    box-shadow: 1px 2px 4px 4px #edecec;
+    border-radius: 8px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.emoji {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+.emoji i {
+    font-size: 1.6rem;
+    margin-left: 30px;
+}
+
+.options {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+.options h3 {
+    margin-bottom: 9px;
+}
+
+.options input {
+    accent-color: green;
+}
+
+.options label {
+    margin-right: 9px;
+}
+
+.options p {
+    margin-bottom: 9px;
+}

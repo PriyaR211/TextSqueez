@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 3px #dfdada;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.left-nav {
+    display: flex;
+    margin-left: 100px;
+}
+
+.left-nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.left-nav li {
+    margin-right: 22px;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-nav {
+    /* border:2px solid red; */
+    position: absolute;
+    right: 150px;
+}
+
+.right-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav li {
+    margin-right: 25px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+button,
+.btn-link {
+    background-color: #94ee0e;
+    border: none;
+    padding: 11px 16px;
+    color: #ffffff;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-link {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 9px 16px;
+    font-weight: 500;
+}
+
+.right-nav a {
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: black;
+}
+
+.topnav {
+    display: none;
+}
+
+
+/* Header Content */
+
+.header-content {
+    /* border:2px solid red; */
+    margin-left: 100px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.left-header {
+    /* border:2px solid red; */
+    width: 30vw;
+    padding-top: 60px;
+}
+
+.left-header h1 {
+    font-size: 3.3rem;
+}
+
+.left-header .para1 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.left-header .para2 {
+    margin-top: 35px;
+    font-weight: 500;
+}
+
+.left-header button {
+    margin-top: 35px;
+    margin-right: 15px;
+}
+
+.right-header img {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 240px;
+    height: 380px;
+}
+
+
+/* Efficient Page */
+
+.efficient {
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    padding-top: 150px;
+    display: flex;
+    height: 60vh;
+}
+
+.efficient .left-part {
+    /* border: 2px solid blue; */
+    width: 35%;
+}
+
+
+.efficient button {
+    border: none;
+    padding: 11px 16px;
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 1px 2px 2px 2px #edecec;
+    color: #181818;
+}
+
+.efficient .para1 {
+    font-weight: 500;
+}
+
+.efficient h1 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.efficient .para2 {
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+.efficient img {
+    height: 60vh;
+    position: absolute;
+    right: 240px;
+}
+
+
+
+
+
+/* Feedback */
+
+.feedback {
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+.feedback .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+.feedback h1 {
+    margin-bottom: 7px;
+}
+
+.feedback .card-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    margin-right: 100px;
+}
+
+.feedback .card {
+    /* border: 2px solid blue; */
+    box-sizing: border-box;
+    height: 210px;
+    width: 310px;
+    padding: 22px 55px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card .card-comment {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card .role {
+    font-weight: normal;
+    margin-top: 7px;
+}
+
+.card i {
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Start Section */
+
+.start {
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    height: 60vh;
+    border-radius: 21px;
+}
+
+.start h1 {
+    font-size: 2.6rem;
+}
+
+.start .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 34%;
+    padding: 0px 43px;
+}
+
+.start .right-part img {
+    height: 60vh;
+    position: absolute;
+    right: 240px;
+}
+
+.start .left-part p {
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
