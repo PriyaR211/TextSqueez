@@ -260,7 +260,7 @@
 
 @media screen and (min-width: 420px) and (max-width: 1200px) {
     .efficient img {
-        height: 50vh;
+        height: 420px;
     }
 }
 
@@ -272,6 +272,6 @@
         align-items: center;
     }
     .start .right-part img {
-        height: 50vh;
+        height: 420px;
     }
 }
