@@ -257,3 +257,22 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 420px) and (max-width: 1200px) {
+    .efficient img {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 1200px) {
+    .start .right-part {
+        width:100%;
+        border:2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .start .right-part img {
+        height: 50vh;
+    }
+}
