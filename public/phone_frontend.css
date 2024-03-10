@@ -34,24 +34,22 @@
 
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:440px) {
     .right-header img {
         height: 50vh;
     }
-    
+
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:360px) {
     .left-header h1 {
         font-size: 2.6rem;
     }
 }
 
-@media screen and (max-width:332){
+@media screen and (max-width:332) {}
 
-}
-     
-    
+
 @media screen and (max-width:770px) {
     .header-content {
         /* border: 2px solid red; */
@@ -59,7 +57,8 @@
         justify-content: center;
         padding-top: 0px;
     }
-    .left-header{
+
+    .left-header {
         padding-top: 20px;
     }
 }
@@ -75,6 +74,7 @@
         margin-left: 0px;
         padding-left: 20px;
         flex-wrap: wrap;
+        justify-content: centre;
     }
 }
 
@@ -107,7 +107,7 @@
 
 @media screen and (max-width:325px) {
     .efficient img {
-        height: 50vh;        
+        height: 50vh;
     }
 }
 
@@ -128,31 +128,34 @@
 
 }
 
-@media screen and (max-width:610px){
-    .feedback{
+@media screen and (max-width:610px) {
+    .feedback {
         margin-left: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .feedback .heading{
+    .feedback .heading {
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 20px;
         padding-bottom: 20px;
     }
-    .feedback .card-section{
+
+    .feedback .card-section {
         margin-right: 0px;
     }
-    
+
 }
-@media screen and (max-width:380px){
-    .feedback .card{
+
+@media screen and (max-width:380px) {
+    .feedback .card {
         padding-left: 4px;
         padding-right: 4px;
     }
-    
+
 }
+
 /* Start Section */
 @media screen and (min-width:200px) and (max-width:1100px) {
     .start {
@@ -191,7 +194,7 @@
 
 }
 
-@media screen and (max-width:341px){
+@media screen and (max-width:341px) {
     .start h1 {
         font-size: 1.5rem;
     }
@@ -199,9 +202,58 @@
 }
 
 
-@media screen and (max-width: 325px){    
-    .start .right-part img{
+@media screen and (max-width: 325px) {
+    .start .right-part img {
         height: 50vh;
     }
 }
 
+@media screen and (max-width:420px) {
+    .right-header img {
+        height: 43vh;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    .efficient{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .efficient img {
+        height: 44vh;
+    }
+}
+
+
+@media screen and (max-width:1120px) {
+    .start .left-part {
+        width: 100%;
+        padding: 30px 43px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .start .right-part img {
+        height: 44vh;
+    }
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 990px) {
+    .efficient .left-part {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    .feedback .card {
+        width: 100%;
+    }
+}
